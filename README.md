@@ -1,6 +1,6 @@
 # Data-Product-Course-Project
 
-In this repo you can find following codes required to run the program :
+The purpose of this work is to estimate the salary of faculties based on their Ranks,sex and the years since get PhD and the service year range .In this repo you can find following codes required to run the program :
 
 
 1- Salary : An Excell file contains the data set .
