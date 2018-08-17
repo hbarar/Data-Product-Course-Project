@@ -1,0 +1,63 @@
+---
+title: "Coursera Developing Data Products: Course Project
+"
+author: "Hassan"
+date: "August 16, 2018"
+output:
+  slidy_presentation: null
+  ioslides_presentation: default
+---
+
+##'Introduction'
+
+This presentation is created as part of the requirement for the Coursera Developing Data Products Course. Objectives of the assignment are to understanding the essential concepts such as :
+
+- shiny to build data product application and reactive output .  
+
+- R-Presentation or slidify to create data product related presentations .
+
+##'The Application'
+
+An application based on the "salary" dataset from [R] has been developed and deployed at : https://hbarar.shinyapps.io/Salaries/ . The app allows to perform interactive data analysis from a set of user specified criterias . Therfore User will be able to further refine the results by choosing the influential parameters as below:
+
+- Gender
+- Rank
+- Years since getting PhD
+- Years of experience range 
+
+The source codes for ui.R and server.R files are also available on the GitHub repo
+
+##"Data"
+
+Below is a brief look at the data which consists of the 
+salary coloumn categorized by 4 factors :
+
+```{r}
+
+data <- read.csv("Salary.csv", sep=",", header=T)
+head(data[2:7],4)
+
+
+ 
+
+```
+Question : What would be the estimation salary for persons who : 
+    
+- Are male
+- Professors
+- years since PhD : 5 years
+- service : 15 to 20 years
+
+-Note: Through shiny app you can change the above settings and 
+      as a result , the table, histogram and output would coordinate and
+      change subsequently
+
+##Result
+```{r}
+
+ library(png)
+img<-readPNG('C:\\Users\\hassan\\Desktop\\Data-Product -Project\\Salaries\\image.png')
+ grid::grid.raster(img)
+```
+
+
