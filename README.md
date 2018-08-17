@@ -9,10 +9,13 @@ The purpose of this work is to estimate the salary of faculties based on their R
 
 3- Image.png and about.Rmd files are used for embeding image in presentation file and an explanation panel in shiny .
 
-4- present.Rmd : This markdown file was created for reproducible pitch presentation by " Slidy " . As a result of running this file
+4- presentation.Rmd : This markdown file was created for reproducible pitch presentation by " Slidy " . As a result of running this file
                 (knit to html) a  webpage (html) would be made which is a presentation .
                 
- 5- present.htm : Is a presentation htm web which you can use space button to left and right in order to navigate the slides .
+ 5- presentation.htm : Is a presentation htm web which you can use space button to left and right in order to navigate the slides .
+ 
+ Note : Shiny app was created through "shinyapps.io" : https://hbarar.shinyapps.io/Salaries/
+        presentation file: Are embeded as html file in GitHub or Rpubs website (http://rpubs.com/hbarar/412750) : 
                  
                  
 
