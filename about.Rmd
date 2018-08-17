@@ -1,0 +1,22 @@
+
+
+Purpose :
+
+Welcome to the "Salary estimation" app, that was developed for the Developing Data Products Course, from Coursera. This app gives you the idea regardingthe amount of salary that professors recieve  corresponding to their years of experience . The data was downloaded from the website [faq]: https://vincentarelbundock.github.io/Rdatasets/datasets.html . 
+Source code for ui.R and server.R files are available on the GitHub.
+
+
+
+STEPS :
+
+First, you need to select the gender as well as the rank of the professor . Then specify the range of years of experience and how long it passed since getting PhD.
+These information will be used to calculate the Median of the salaries based on the two disicplined (A and B)corresponding to " theoritical and applied department" respectively . 
+
+Results are as following :
+
+- Histogram of salaries based on two levels(A,B) & Reported median salary for two different levels based on the selected parameters .
+- A table which gets modified by changing the parameters through slidebar .
+
+
+
+
